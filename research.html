@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Geoinformatics Unit</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    
+
+    
+
+<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      
+      /*.navbar-nav .active {
+          color: #19B49B !important;
+          }*/
+
+    </style>
+    
+    <!-- Custom styles for this template -->
+    <link href="./assets/css/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-xl">
+      <a class="navbar-brand" href="https://www.geoinformatics2018.com/"><img src="./assets/brand/Geoinfo_Logo.png" alt="" height="40"> Geoinformatics Unit</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./research.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./team.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./publication.html">Publication</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./opportunity.html" target="_blank">Opportunity</a>
+          </li>
+
+          <!--<li class="nav-item">
+            <a class="nav-link" href="">Download</a>
+          </li>-->
+          <!--<li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Demo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Leaderboard</a>
+          </li>
+        </ul>-->
+        <!--<form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>-->
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing" style="padding-top: 5em">
+    <!-- START THE FEATURETTES -->
+    <h1>Our Research</h1>
+    <hr class="featurette-divider">
+    
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2>Solving Inverse Image Problems</h2>
+        <p class="lead">We work on solving image inverse problems, such as compressive spectral imaging, super-resolution, denoising, and inpainting to obtain high-spatio-spectral-temporal-resolution images that exceed hardware limitations. We develop algorithms based on deep learning and matrix and tensor decomposition that contribute to the generation of higher-order products from airborne and satellite data. Our recent work include cross-modal super-resolutioin [Dong, ECCV'22] and neural architecture search for compressive spectral imaging [He, ECCV'22].</p>
+      </div>
+      <div class="col-md-5">
+        <img src="./assets/img/inverse.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500">
+
+      </div>
+    </div>
+    
+    <hr class="featurette-divider">
+    
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2>Understanding Remote Sensing Images</h2>
+        <p class="lead">The automatic extraction of map information, such as land cover and elevation models from remote sensing imagery, is our core project. Machine learning is a powerful tool to automate mapping, but the quality and quantity of training data are the key. We build world-leading benchmark data for land cover mapping addressing geographic equity [Xia, WACV'23]. We also work on mapping from incomplete training data [Li, JSTARS'22]. How to recognize changes from images of different modalities and automatically update maps is also a key challenge [Chen, TGRS'22].</p>
+      </div>
+      <div class="col-md-5">
+        <img src="./assets/img/openearthmap.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500">
+
+      </div>
+    </div>
+        
+    <hr class="featurette-divider">
+    
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2>Toward a Sustanable Future</h2>
+        <p class="lead">Our research is grounded in solving global issues toward, such as climate change, large-scale natural disasters, and food problems. Our recnet work includes 3D change (e.g., inudation depth and terrain deformation) estimation during disasters [Yokoya, TGRS'22], biomass and carbon stocks estimation in mangroves [Le, IJRS'21], and crop type classification [Xia, IJAEOG'23], in collaboration with related institutions and researchers in Japan and overseas. In real-world problems, the lack of training data is a more serious issue. A unique feature of our approach is the successful use of heterogeneous data from different disciplines as training data.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="./assets/img/damagemapping.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500">
+
+      </div>
+    </div>
+    
+    
+    <hr class="featurette-divider">
+
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <!--<p class="float-end"><a href="#">Back to top</a></p>-->
+    <p>&copy; 2023 Geoinformatics Unit</p>
+  </footer>
+</main>
+
+
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
